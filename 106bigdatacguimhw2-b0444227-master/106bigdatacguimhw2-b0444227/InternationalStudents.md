@@ -423,7 +423,7 @@ n <- joinCountryData2Map(d, joinCode="NAME", nameJoinColumn="country")
 ``` r
 numCats<-50
 palette=colorRampPalette(brewer.pal(n=9,name='Greens'))(numCats)
-mapCountryData(n, nameColumnToPlot="value", mapTitle="World",catMethod = 'fixedWidth',numCats=numCats,colourPalette =palette,addLegend = T)
+MAPSHOW<-mapCountryData(n, nameColumnToPlot="value", mapTitle="World",catMethod = 'fixedWidth',numCats=numCats,colourPalette =palette,addLegend = T)
 ```
 
 ![](InternationalStudents_files/figure-markdown_github/ToTWNCountryMap-1.png)

@@ -97,8 +97,7 @@ n <- joinCountryData2Map(d, joinCode="NAME", nameJoinColumn="country")
 
 numCats<-50
 palette=colorRampPalette(brewer.pal(n=9,name='Greens'))(numCats)
-mapCountryData(n, nameColumnToPlot="value", mapTitle="World",catMethod = 'fixedWidth',numCats=numCats,colourPalette =palette,addLegend = T)
-
+MAPSHOW<-mapCountryData(n, nameColumnToPlot="value", mapTitle="World",catMethod = 'fixedWidth',numCats=numCats,colourPalette =palette,addLegend = T)
 ```
 
 ## 台灣學生國際交流分析
