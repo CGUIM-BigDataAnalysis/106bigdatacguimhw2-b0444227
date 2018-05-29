@@ -426,7 +426,7 @@ palette=colorRampPalette(brewer.pal(n=9,name='Greens'))(numCats)
 MAPSHOW<-mapCountryData(n, nameColumnToPlot="value", mapTitle="World",catMethod = 'fixedWidth',numCats=numCats,colourPalette =palette,addLegend = T)
 ```
 
-![](InternationalStudents_files/figure-markdown_github/ToTWNCountryMap-1.png)
+![](https://github.com/CGUIM-BigDataAnalysis/106bigdatacguimhw2-b0444227/blob/master/106bigdatacguimhw2-b0444227-master/1%20(2).png)
 
 台灣學生國際交流分析
 --------------------
@@ -545,7 +545,7 @@ palette=colorRampPalette(brewer.pal(n=9,name='Greens'))(numCats)
 mapCountryData(nn, nameColumnToPlot="value", mapTitle="World",catMethod = 'fixedWidth',numCats=numCats,colourPalette =palette,addLegend = T)
 ```
 
-![](InternationalStudents_files/figure-markdown_github/TWNCountryMap-1.png)
+![](https://github.com/CGUIM-BigDataAnalysis/106bigdatacguimhw2-b0444227/blob/master/106bigdatacguimhw2-b0444227-master/2%20(2).png)
 
 台灣學生出國留學分析
 --------------------
@@ -632,7 +632,7 @@ palette=colorRampPalette(brewer.pal(n=9,name='Greens'))(numCats)
 mapCountryData(nnn, nameColumnToPlot="value", mapTitle="World",catMethod = 'fixedWidth',numCats=numCats,colourPalette =palette,addLegend = T)
 ```
 
-![](InternationalStudents_files/figure-markdown_github/TWNAbMap-1.png)
+![](https://github.com/CGUIM-BigDataAnalysis/106bigdatacguimhw2-b0444227/blob/master/106bigdatacguimhw2-b0444227-master/3%20(2).png)
 
 綜合分析
 --------
